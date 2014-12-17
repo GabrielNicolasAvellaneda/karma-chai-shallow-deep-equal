@@ -5,8 +5,8 @@ var createPattern = function(file) {
 };
 
 var init = function(files) {
-    var path = path.dirname(require.resolve('chai-shallow-deep-equal')) + '/..';
-    files.unshift(createPattern(path + '/chai-shallow-deep-equal.js'));
+    var _path = path.dirname(require.resolve('chai-shallow-deep-equal'));
+    files.unshift(createPattern(_path + '/chai-shallow-deep-equal.js'));
 };
 
 init.$inject = ['config.files'];
