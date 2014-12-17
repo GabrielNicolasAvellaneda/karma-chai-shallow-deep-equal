@@ -18,7 +18,6 @@ var initAdapter = function (files) {
 
     var pluginIndex = chaiFileIndex + 1;
     files.splice(pluginIndex, 0, pluginFile);
-    console.log(files);
 };
 
 initAdapter.$inject = ['config.files'];
