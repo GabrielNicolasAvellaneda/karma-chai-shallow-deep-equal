@@ -12,14 +12,9 @@ npm install karma-shallow-deep-equals --save-dev
 Add ```chai-shallow-deep-equal``` to ```frameworks``` in your Karma configuration:
 
 ```js
-module.exports = function(config) {
-  'use strict';
-  config.set({
-    #...
-    frameworks: ['chai', 'chai-shallow-deep-equal'],
-    #...
-  });
-}
+...
+  frameworks: ['chai', 'chai-shallow-deep-equal'],
+...
 ```
 
 ### Example
