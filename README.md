@@ -6,7 +6,7 @@ chai-shallow-deep-equal for Karma
 ## Installation
 
 ```
-npm install karma-shallow-deep-equals --save-dev
+npm install karma-shallow-deep-equal --save-dev
 ```
 
 Add ```chai-shallow-deep-equal``` to ```frameworks``` in your Karma configuration:
